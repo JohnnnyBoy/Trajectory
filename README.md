@@ -11,7 +11,8 @@ The objective was to use two different cobots for creating a whole assembly proc
 
 The OMRON LD-60 mobile robot and TM5-700 collaborative arm where used for the first part of the process. Both units were connected to the TEC laboratory network. Using the Mobile Planner software for mapping, waypoint definition, and trajectory planning. 
 For the camera based pick and place movement was used TMFlow, a visual pragramming environment. 
-<img width="693" height="888" alt="OMRON-Robot" src="https://github.com/user-attachments/assets/01487d0d-0c9b-4f2a-9b29-08ae7375b393" />
+<img width="223" height="523" alt="Omron_Robot" src="https://github.com/user-attachments/assets/aa6ec3d0-5aae-428b-a887-bbbc6e2fd2d2" />
+
 
 
 **Second part (Universal Studios, UFactory):**
