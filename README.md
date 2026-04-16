@@ -24,6 +24,9 @@ For right orientation in the laboratory there was used odometry with starting po
 <img width="75" height="140" alt="Omron_Robot" src="https://github.com/user-attachments/assets/aa6ec3d0-5aae-428b-a887-bbbc6e2fd2d2" />
 <img width="75" height="140" alt="B1-xarm_picture" src="https://github.com/user-attachments/assets/1244f9d9-0095-43e3-ba69-4a50de878c3c" />
 
+## Explanation Respository
+The Connect xArm and Connect B1 files are the instruction manual for connecting the xArm to the B1 and both to the TEC laboratory network.
+In the other scripts are the files for the single components of the cobots.
 
 <img width="1000" height="500" alt="curso-en-linea-gratis-tec-de-monterrey" src="https://github.com/user-attachments/assets/ae95b1e7-bb44-4390-a6d8-5d174b00ae97" />
 
