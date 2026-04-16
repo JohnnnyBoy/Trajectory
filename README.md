@@ -2,11 +2,11 @@
 Trajectory Code for collaborative robot B1 from Universal Robots Mexico.
 Pick and place movement for cobot xArm of UFactory Mexico. 
 
-## Introduction
+## 📌 Introduction
 There was a collaboration between the students of the Tecnológico de Monterrey and the companies Universal Studios and UFactory to build a automated and closed-loop assembly process for 3D-printed supportive springs. It was all part of the final challenge of Cyber Physical Systems I with the big company partner OMRON Robots. 
 The objective was to use two different cobots for creating a whole assembly process with handover from rack to assembly station, conveyors, the other cobot and finally the rack.
 
-## Challenge description
+## 💻 Challenge description
 **First part (OMRON):**
 
 The OMRON LD-60 mobile robot and TM5-700 collaborative arm where used for the first part of the process. Both units were connected to the TEC laboratory network. Using the Mobile Planner software for mapping, waypoint definition, and trajectory planning. 
