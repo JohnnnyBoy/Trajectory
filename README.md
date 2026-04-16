@@ -1,5 +1,4 @@
 # Trajectory
-## Abstract
 Trajectory Code for collaborative robot B1 from Universal Robots Mexico.
 Pick and place movement for cobot xArm of UFactory Mexico. 
 
