@@ -7,17 +7,22 @@ There was a collaboration between the students of the Tecnológico de Monterrey 
 The objective was to use two different cobots for creating a whole assembly process with handover from rack to assembly station, conveyors, the other cobot and finally the rack.
 
 ## Challenge description
-### First part (OMRON):
+**First part (OMRON):**
+
 The OMRON LD-60 mobile robot and TM5-700 collaborative arm where used for the first part of the process. Both units were connected to the TEC laboratory network. Using the Mobile Planner software for mapping, waypoint definition, and trajectory planning. 
 For the camera based pick and place movement was used TMFlow, a visual pragramming environment. 
+<img width="693" height="888" alt="OMRON-Robot" src="https://github.com/user-attachments/assets/01487d0d-0c9b-4f2a-9b29-08ae7375b393" />
+
 
 **Second part (Universal Studios, UFactory):**
+
 The objective was to program and equip the mobile robot B1 to drive selfby for pick and place the prototype fixture to the goal rack with help of the xArm on top of the B1 robot. 
 
 There were used ultrasonic and infrared camera sensors to detect obstacles for bypass. 
 For most efficient movement there was used an error based cloesd-loop trajectory code for power saving turns in all directions. 
 The whole code was written with Python 3 in ROS I. 
 For right orientation in the laboratory there was used odometry with starting point as 0/0/0.
+<img width="155" height="281" alt="B1-xarm_picture" src="https://github.com/user-attachments/assets/1244f9d9-0095-43e3-ba69-4a50de878c3c" />
 
 
 <img width="1000" height="522" alt="curso-en-linea-gratis-tec-de-monterrey" src="https://github.com/user-attachments/assets/ae95b1e7-bb44-4390-a6d8-5d174b00ae97" />
