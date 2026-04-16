@@ -29,5 +29,9 @@ For right orientation in the laboratory there was used odometry with starting po
 The [Connect xArm](https://github.com/JohnnnyBoy/Trajectory/blob/main/Connect%20xArm) and [Connect B1](https://github.com/JohnnnyBoy/Trajectory/blob/main/Connect%20B1) files are the instruction manual for connecting the xArm to the B1 and both to the TEC laboratory network.
 In the other scripts are the files for the single components of the cobots.
 
+## Research Gate
+If you´re interested in this project you can got on my Research Gate account [Jonas Westphal](https://www.researchgate.net/publication/396885299_Collaborative_Robot_Integration_with_ROS_and_IoT_for_Smart_Factory_Automation_Cyber-Physical-Systems_Approach) there you can read the full technical report of this challenge. 
+
+## 
 <img width="1000" height="500" alt="curso-en-linea-gratis-tec-de-monterrey" src="https://github.com/user-attachments/assets/ae95b1e7-bb44-4390-a6d8-5d174b00ae97" />
 
