@@ -1,56 +1,41 @@
-OMRON: IP assignment> manual
+--------- connect B1 robot ---------
+--------- OMRON: IP assignment> manual
 B1: 192.168.1.203
 IPv4: 192.168.1.200
 mask: 255.255.255.0
-_______________________________
-init robot
-#T1 ----------
+
+--------- init robot
+--------- #T1
 
 ssh jetson@192.168.31.100      /  password: jetson
-
 source ~/robocup-home/catkin_home/devel/setup.bash
-
 export ROS_MASTER_URI='http://192.168.31.100:11311' 
 
 hostname -I
 export ROS_IP=192.168.31.100 / (user ip)
-
 roslaunch dashgo_driver driver_imu.launch 
 
-
-#T2 —-------------------------------------------------------
-
+--------- #T2 
 ssh jetson@192.168.31.100  	/  password: jetson
-
 rostopic list (to make sure you are connected with the robot)
 
-
-#T3 ------------------------------------------------------------
-
+--------- #T3
 export ROS_MASTER_URI='http://192.168.31.100:11311'
-
 hostname -I
 export ROS_IP=192.168.31.107 / (user ip)
-
 rosrun cp1_project trajectory.py
 
-#T3
+--------- #T3
 export ROS_MASTER_URI='http://192.168.31.100:11311'
 export ROS_IP=192.168.31.107
 rosrun puzzlebot_control control.py
-#T4
+--------- #T4
 export ROS_MASTER_URI='http://192.168.31.100:11311'
 export ROS_IP=192.168.31.107
 rosrun puzzlebot_control path_generator.py
-
-
-
-
 roslaunch dashgo_driver driver_imu.launch / nicht nötig
 
-----------
-OTHER TERMINAL
-
+---------- #T5
 ssh jetson@192.168.31.100  	/  password: jetson
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py _repeat_rate:=10 cmd_vel:=smoother_cmd_vel _speed:=0.2 _turn:=0.4
 
