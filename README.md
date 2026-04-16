@@ -21,8 +21,9 @@ For most efficient movement there was used an error based cloesd-loop trajectory
 The whole code was written with Python 3 in ROS I. 
 For right orientation in the laboratory there was used odometry with starting point as 0/0/0.
 
-<img width="75" height="140" alt="Omron_Robot" src="https://github.com/user-attachments/assets/aa6ec3d0-5aae-428b-a887-bbbc6e2fd2d2" />
-<img width="75" height="140" alt="B1-xarm_picture" src="https://github.com/user-attachments/assets/1244f9d9-0095-43e3-ba69-4a50de878c3c" />
+##
+<img width="140" height="280" alt="Omron_Robot" src="https://github.com/user-attachments/assets/aa6ec3d0-5aae-428b-a887-bbbc6e2fd2d2" />
+<img width="140" height="280" alt="B1-xarm_picture" src="https://github.com/user-attachments/assets/1244f9d9-0095-43e3-ba69-4a50de878c3c" />
 
 ## Explanation Respository
 The [Connect xArm](https://github.com/JohnnnyBoy/Trajectory/blob/main/Connect%20xArm) and [Connect B1](https://github.com/JohnnnyBoy/Trajectory/blob/main/Connect%20B1) files are the instruction manual for connecting the xArm to the B1 and both to the TEC laboratory network.
