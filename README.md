@@ -11,9 +11,6 @@ The objective was to use two different cobots for creating a whole assembly proc
 
 The OMRON LD-60 mobile robot and TM5-700 collaborative arm where used for the first part of the process. Both units were connected to the TEC laboratory network. Using the Mobile Planner software for mapping, waypoint definition, and trajectory planning. 
 For the camera based pick and place movement was used TMFlow, a visual pragramming environment. 
-<img width="75" height="140" alt="Omron_Robot" src="https://github.com/user-attachments/assets/aa6ec3d0-5aae-428b-a887-bbbc6e2fd2d2" />
-
-
 
 **Second part (Universal Studios, UFactory):**
 
@@ -24,8 +21,9 @@ For most efficient movement there was used an error based cloesd-loop trajectory
 The whole code was written with Python 3 in ROS I. 
 For right orientation in the laboratory there was used odometry with starting point as 0/0/0.
 
+<img width="75" height="140" alt="Omron_Robot" src="https://github.com/user-attachments/assets/aa6ec3d0-5aae-428b-a887-bbbc6e2fd2d2" />
 <img width="75" height="140" alt="B1-xarm_picture" src="https://github.com/user-attachments/assets/1244f9d9-0095-43e3-ba69-4a50de878c3c" />
 
 
-<img width="250" height="125" alt="curso-en-linea-gratis-tec-de-monterrey" src="https://github.com/user-attachments/assets/ae95b1e7-bb44-4390-a6d8-5d174b00ae97" />
+<img width="1000" height="500" alt="curso-en-linea-gratis-tec-de-monterrey" src="https://github.com/user-attachments/assets/ae95b1e7-bb44-4390-a6d8-5d174b00ae97" />
 
