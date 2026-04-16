@@ -1,32 +1,26 @@
-connect xarm b1r4
-
+--------- connect xarm b1r4 ---------
 ssh jetson@192.168.31.100
 source ~/xarm_ws/devel/setup.bash
 roslaunch xarm_bringup xarm5_server.launch robot_ip:=192.168.31.203
 
-Other terminal ------------------
+--------- Other terminal
 export ROS_MASTER_URI='http://192.168.31.100:11311' 
 export ROS_IP=192.168.31.133
 rostopic list
 rosrun cp1_xArm program_sim.py 5
 
-
-if the last command doesn't work, run this
+--------- if the last command doesn't work, run this
 source ~/xarm_ws/devel/setup.bash
 rosrun cp1_xArm program.py 5
-
-
-Gripper:
+________________________________
+--------- Gripper ---------
 export ROS_MASTER_URI='http://192.168.31.100:11311' 
 export ROS_IP=192.168.31.131
 roslaunch xarm_bringup lite6_server.launch robot_ip:=192.168.31.203
 
-
-Open and close gripper with terminal:
-
-Close: 
+--------- Close gripper with terminal
 rosservice call /xarm/open_lite6_gripper
 
-Open: 
+--------- Open gripper with terminal
 rosservice call /xarm/close_lite6_gripper
 
